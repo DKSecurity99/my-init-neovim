@@ -30,6 +30,7 @@ mkdir $HOME/.config/nvim
 # Caso diga que a pasta .config ja existe tu só acessa ela e la dentro cria a pasta nvim
 
 cd $HOME/.config 
+
 mkdir nvim && cd nvim
 
 # Agora volta pra HOME do termux, pra isso só digita "cd" e da enter claro.
@@ -37,6 +38,7 @@ mkdir nvim && cd nvim
 # Agora entra na pasta do repositório com meu init.vim, que tu clonou e move pra pasta que criamos 
 
 cd my-init-neovim 
+
 mv init.vim $HOME/.config/nvim
 
 # Pronto agora tu sai da pasta com "cd .." e abre o neovim, pra abrir ele digita "nvim" e da enter, quando abrir pode aparecer algum erro, mas ai tu da enter até sumir, ou aperta ":" nesses 2 pontos ai do seu teclado, isso diz pro neovim que vc vai digitar algum comando.
