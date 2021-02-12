@@ -68,11 +68,13 @@ nvim teste.js
 # pra fechar o neovim sem salvar as alterações no arquivo 
 
 :q 
+
 :q!  # com o carácter de exclamação é pra salvar forçado 
 
 # salvar alterações 
 
 :wq
+
 :wq! # forçado 
 
 # pra reverter algo que tu escreveu no código
