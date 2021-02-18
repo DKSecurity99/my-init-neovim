@@ -21,7 +21,6 @@ call plug#begin('$HOME/.config/nvim/plugged')
     Plug 'sheerun/vim-polyglot'
     Plug 'Yggdroot/indentLine'
     Plug 'pangloss/vim-javascript'
-    Plug 'mattn/emmet-vim'
     Plug 'pseewald/vim-anyfold'
     Plug 'jiangmiao/auto-pairs'
     Plug 'toupeira/vim-desertink'
@@ -30,7 +29,6 @@ call plug#begin('$HOME/.config/nvim/plugged')
     Plug 'dense-analysis/ale'
 
     " my plugs
-    Plug 'isruslan/vim-es6'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
@@ -40,13 +38,11 @@ call plug#begin('$HOME/.config/nvim/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
+    
     " themes
     Plug 'ayu-theme/ayu-vim'
     Plug 'joshdick/onedark.vim'
     Plug 'dracula/vim'
-    Plug 'rakr/vim-one'
-    Plug 'drewtempelmeyer/palenight.vim'
-    Plug 'sainnhe/sonokai'
 call plug#end()
 
 "let g:deoplete#enable_at_startup = 1
